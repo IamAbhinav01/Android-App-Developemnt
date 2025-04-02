@@ -15,10 +15,16 @@ fun main()
     println(number)
     println(myname)
     println("Hello Students")*/
-    val pi = 3.14f
+    /*val pi = 3.14f
     println(pi)
     val npi = 3.1426578
     println(npi)
     val d = 2.18
-    println(d)
+    println(d)*/
+    val myTrue : Boolean = true
+    val myFalse :Boolean = false
+    println(myTrue||myFalse)
+    println(myTrue&&myFalse)
+    println(myTrue&&myTrue)
+    println(myFalse&&myFalse)
 }
