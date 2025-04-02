@@ -2,7 +2,7 @@ package com.example.kotlinbasics
 
 fun main()
 {
-    val myname = "Abhinav"
+    /*val myname = "Abhinav"
     var number = 10
     number+=10
     //Val cannot be reassigned.
@@ -14,5 +14,11 @@ fun main()
     println(num)
     println(number)
     println(myname)
-    println("Hello Students")
+    println("Hello Students")*/
+    val pi = 3.14f
+    println(pi)
+    val npi = 3.1426578
+    println(npi)
+    val d = 2.18
+    println(d)
 }
