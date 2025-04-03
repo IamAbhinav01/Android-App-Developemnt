@@ -27,7 +27,10 @@ fun main()
     println(myTrue&&myFalse)
     println(myTrue&&myTrue)
     println(myFalse&&myFalse)*/
-    var age = 25
+    //var age = 25
+    var age = 0
+    print("Enter the number: ")
+    age = readln().toInt()
     if(age >= 18)
     {
         println("You can enter")
