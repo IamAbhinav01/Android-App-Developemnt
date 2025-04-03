@@ -21,10 +21,18 @@ fun main()
     println(npi)
     val d = 2.18
     println(d)*/
-    val myTrue : Boolean = true
+    /*val myTrue : Boolean = true
     val myFalse :Boolean = false
     println(myTrue||myFalse)
     println(myTrue&&myFalse)
     println(myTrue&&myTrue)
-    println(myFalse&&myFalse)
+    println(myFalse&&myFalse)*/
+    var age = 25
+    if(age >= 18)
+    {
+        println("You can enter")
+    }
+    else{
+        println("you can't enter")
+    }
 }
