@@ -40,6 +40,7 @@ fun main()
     }*/
     //new("Abhi",120)
     //new("kos")
+    println(add(10,5))
 }
 /*fun new(name:String,number:Int)
 {
@@ -47,5 +48,8 @@ fun main()
     println("Hi $name")
     println("its nice meeting you $name")
 }*/
-
+fun add(x:Int,y:Int):Int{
+    var result = x+y
+    return result
+}
 
