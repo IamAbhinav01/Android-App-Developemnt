@@ -3,6 +3,8 @@ package com.example.unitconverter
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -22,17 +24,27 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    UnitConverter()
                 }
             }
         }
     }
 }
-
+@Composable
+fun UnitConverter(){
+    Column {
+        //Greeting("Abhinav")
+        //Greeting("Sunil")
+        Row {
+            Greeting("Abhinav")
+            Greeting("Sunil")
+        }
+    }
+}
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Hello $name!    ",
         modifier = modifier
     )
 }
@@ -41,6 +53,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     UnitConverterTheme {
-        Greeting("Android")
+        UnitConverter()
     }
 }
